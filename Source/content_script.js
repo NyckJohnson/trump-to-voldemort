@@ -32,9 +32,7 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bThe\s+Trump\b/gi, "The Darklord");
-	v = v.replace(/\bDonald\s+Trump\b/gi, "He-Who-Must-Not-Be-Named");
-	v = v.replace(/\bDonald\s+J\s+Trump\b/gi, "He-Who-Must-Not-Be-Named");
-	v = v.replace(/\bDonald\s+J[.]\s+Trump\b/gi, "He-Who-Must-Not-Be-Named");
+	v = v.replace(/\bDonald\s+J?[.]?\s*Trump\b/gi, "He-Who-Must-Not-Be-Named");
 	v = v.replace(/\bDonald\s+John\s+Trump\b/gi, "He-Who-Must-Not-Be-Named");
 	v = v.replace(/\bTrump\b/gi, "You-Know-Who");
 	v = v.replace(/\bRepublican\b/gi, "Slytherin");
