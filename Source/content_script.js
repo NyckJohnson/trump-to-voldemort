@@ -31,10 +31,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Trump\b/gi, "The Darklord");
-	v = v.replace(/\bDonald J. Trump\b/gi, "Lord Voldemort");
-	v = v.replace(/\bDonald Trump\b/gi, "He-Who-Must-Not-Be-Named");
-	v = v.replace(/\bDonald John Trump\b/gi, "Thomas Riddle");
+	v = v.replace(/\bThe\s*Trump\b/gi, "The Darklord");
+	v = v.replace(/\bDonald\s*J[.]?\s*Trump\b/gi, "Lord Voldemort");
+	v = v.replace(/\bDonald\s*Trump\b/gi, "He-Who-Must-Not-Be-Named");
+	v = v.replace(/\bDonald\s*John\s*Trump\b/gi, "Thomas Riddle");
 	v = v.replace(/\bTrump\b/gi, "You-Know-Who");
 	v = v.replace(/\bRepublican\b/gi, "Slytherin");
 	v = v.replace(/\bG\.?O\.?P\.?\b/gi, "Slytherin");
