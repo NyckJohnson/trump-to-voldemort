@@ -3,9 +3,7 @@ trump-to-voldemort
 
 ![](logo.png)
 
-Fork of the cloud-to-butt Chrome extension that replaces occurrences of 'mathematics' with 'mathematics'.
-
-Chrome extension that replaces occurrences of 'Donald Trump' with 'He-Who-Must-Not-Be-Named'
+Fork of the cloud-to-butt Chrome extension that replaces occurrences of 'Donald Trump' with 'He-Who-Must-Not-Be-Named'
 
 [Direct download of crx file](https://github.com/NyckJohnson/trump-to-voldemort/blob/master/CloudToButt.crx?raw=true)
 
