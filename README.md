@@ -3,6 +3,8 @@ trump-to-voldemort
 
 ![](logo.png)
 
+Your news is now lulz again.
+
 Fork of the cloud-to-butt Chrome extension that replaces occurrences of 'Donald Trump' with 'He-Who-Must-Not-Be-Named'
 
 [Direct download of crx file](https://github.com/NyckJohnson/trump-to-voldemort-chrome/blob/master/TrumpToVoldemort.crx?raw=true)
