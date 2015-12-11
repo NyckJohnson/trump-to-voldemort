@@ -29,7 +29,7 @@ function walk(node)
 
 function handleText(textNode) 
 {
-	var v = textNode.nodeValue;
+	var v = textNode.wholeText;
 
 	v = v.replace(/The\s*Trump/gi, "The Darklord");	
 	v = v.replace(/The\s*Donald/gi, "The Darklord");
@@ -40,7 +40,7 @@ function handleText(textNode)
 	v = v.replace(/Republican/gi, "Slytherin");
 	v = v.replace(/G\.?O\.?P\.?/gi, "Slytherin");
 
-	textNode.nodeValue = v;
+	textNode.replaceWholeText(v);
 }
 
 
